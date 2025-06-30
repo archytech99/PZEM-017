@@ -1,0 +1,25 @@
+{
+    "name": "PZEM-017",
+    "frameworks": "arduino",
+    "keywords": "peacefair, pzem, powermeter, energy, monitor, serial, ttl, rs485",
+    "description": "Memungkinkan komunikasi melalui TTL/RS485 ke Peacefair PZEM-017 Power and Energy Monitor",
+    "url": "https://github.com/archytech99/PZEM-017",
+    "authors": [
+        {
+            "name": "Arief BP"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/archytech99/PZEM-017.git"
+    },
+    "platforms": "*",
+    "version": "1.0.0",
+    "dependencies": [
+        {
+            "name": "EspSoftwareSerial",
+            "version": ">=3.2.0",
+            "platforms": "espressif8266"
+        }
+    ]
+}
